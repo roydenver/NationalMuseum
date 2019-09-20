@@ -1,0 +1,69 @@
+body {
+  background: #312b2b;
+  font-family: "Montserrat", sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #e4a318;
+}
+
+#mainNavbar .navbar-brand {
+  color: #e4a318;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+.blurb h2 {
+  color: #e4a318;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #e0b75d;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+i {
+  color: #e0b75d;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+#headingGroup h1 {
+  font-size: 4rem;
+  font-weight: 100;
+}
+
+.navbar.scrolled {
+  background: rgb(54, 54, 54);
+  transition: ease-in 1s;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+}
